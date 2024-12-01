@@ -1,0 +1,31 @@
+#grad_1 {
+    height: 100px;
+    width: 124px;
+    color: whitesmoke;
+    text-align: center;
+    background: linear-gradient(blue, black);
+
+}
+
+#grad_2 {
+    height: 100px;
+    width: 124px;
+    color: rgb(200, 0, 0);
+    text-align: center;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    25% {
+        background-image: url("https://www.usatoday.com/gcdn/authoring/authoring-images/2023/11/17/USAT/71618392007-cricket-promo-001.png?crop=2663,1997,x839,y3");
+    }
+
+    50% {
+        background-image: url("https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/internal_resources/402/Carina_Nebula-1.jpeg?w=4096&format=jpeg&fit=clip&crop=faces%2Cfocalpoint");
+    }
+
+    100% {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyoqHuALBlllYXTEYJCSjtzpl1ImESC0O2jfQYc3UbPCHjXjZozbHooItUZ7uPZspK3V8&usqp=CAU");
+    }
+}
